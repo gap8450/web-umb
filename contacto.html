@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="shortcut icon" href="#" />
+    <title>MI BLOG PERSONAL</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" style="background-color: #e3f2fd;">
+      <a class="navbar-brand" href="./index.html"><img src="imagenes/Portapapeles01.png" class="imagen-logo" alt="Responsive image"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">Nosotros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./servicios.html">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Terminos y condiciones</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumbotron">
+      <h1>BLOG PERSONAL</h1>
+    </div>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item" aria-current="page">
+            <a href="./index.html">Home</a>
+          </li>
+          <li class="breadcrumb-item active" aria-current="page">
+            Contacto
+          </li>
+        </ol>
+      </nav>
+      <h1>Dejame tu comentario</h1>
+      
+    <div class="contact_form">
+
+        <div class="formulario">            
+      <h1>Formulario de contacto</h1>
+                <h3>Escríbenos y en breve los pondremos en contacto contigo</h3>
+
+
+                    <form action="submeter-formulario.php" method="post">               
+
+                        
+                                <p>
+                                    <label for="nombre" class="colocar_nombre">Nombre
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="introducir_nombre" id="nombre" required="obligatorio" placeholder="Escribe tu nombre">
+                                </p>
+                            
+                                <p>
+                                    <label for="email" class="colocar_email">Email
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="email" name="introducir_email" id="email" required="obligatorio" placeholder="Escribe tu Email">
+                                </p>
+                        
+                                <p>
+                                    <label for="telefone" class="colocar_telefono">Teléfono
+                                    </label>
+                                        <input type="tel" name="introducir_telefono" id="telefono" placeholder="Escribe tu teléfono">
+                                </p>        
+                            
+                                <p>
+                                    <label for="website" class="colocar_website">Sitio web
+                                    </label>
+                                        <input type="url" name="introducir_website" id="website" placeholder="Escribe la URL de tu web">
+                                </p>        
+                            
+                                <p>
+                                    <label for="asunto" class="colocar_asunto">Asunto
+                                        <span class="obligatorio">*</span>
+                                    </label>
+                                        <input type="text" name="introducir_asunto" id="assunto" required="obligatorio" placeholder="Escribe un asunto">
+                                </p>        
+                            
+                                <p>
+                                    <label for="mensaje" class="colocar_mensaje">Mensaje
+                                        <span class="obligatorio">*</span>
+                                    </label>                     
+                                      <textarea name="introducir_mensaje" class="texto_mensaje" id="mensaje" required="obligatorio" placeholder="Deja aquí tu comentario..."></textarea> 
+                                </p>                                    
+                            
+                                <button type="submit" name="enviar_formulario" id="enviar"><p>Enviar</p></button>
+
+                                <p class="aviso">
+                                    <span class="obligatorio"> * </span>los campos son obligatorios.
+                                </p>                    
+                        
+                    </form>
+        </div>  
+    </div>
+
+    </div>
+    <footer class="footer" id="contacto">
+      <div class="row">
+        <div class="col-sm-5 d-flex flex-column ">
+          <a href="http://www.facebook.com" class="rd-social"><ion-icon name="logo-facebook" class="footer-address-icon"></ion-icon>Facebook</a>
+          <a href="http://www.google.com" class="rd-social"><ion-icon name="logo-google" class="footer-address-icon"></ion-icon>Google+</a>
+          <a href="http://www.linkedin.com" class="rd-social"><ion-icon name="logo-linkedin" class="footer-address-icon"></ion-icon>Linkedin</a>
+        </div>
+        <div class="col-sm-5">
+        <img src="imagenes/logo_size_invert.jpg"  alt="Responsive image">
+        </div>
+        <div class="col-sm-2    d-flex flex-column alingn-items-end">
+            <address>
+            <h3><strong>CONTACTO</strong></h3>
+            <p><ion-icon name="home-outline" class="footer-address-icon"></ion-icon>Boogota, Colombia</p>
+            <p><ion-icon name="call-outline" class="footer-address-icon"></ion-icon>+57 3102674398</p>
+            <p><ion-icon name="mail-outline" class="footer-address-icon"></ion-icon>gustavo8450@hotmail.com</p>
+          </address>
+        </div>
+      </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+  </body>
+</html>

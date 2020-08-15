@@ -1,0 +1,59 @@
+[33mcommit 4f313874aac1609cc771df5944527a615fc0c87a[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: gap8450 <47310190+gap8450@users.noreply.github.com>
+Date:   Mon Jul 6 14:11:40 2020 -0500
+
+    se agrega pagina contacto
+
+[33mcommit dcc7f8c15d60db9ad0df1f63f80a4a617f985c29[m
+Author: gap8450 <47310190+gap8450@users.noreply.github.com>
+Date:   Sun Jul 5 19:48:48 2020 -0500
+
+    usando open icons
+
+[33mcommit 6807f617875e9210fcf1287747314601bcb33820[m
+Author: gap8450 <47310190+gap8450@users.noreply.github.com>
+Date:   Sun Jul 5 17:31:00 2020 -0500
+
+    agregamos navegabilidad
+
+[33mcommit 9b3db9771de26ffb8c4b9d5305cf47ff2ff1ec95[m
+Author: Gustavo Paredes <gustavo-8450@hotmail.com>
+Date:   Mon Jun 29 03:44:05 2020 -0500
+
+    agregamos footer y estilos con flex
+
+[33mcommit 8c60f381b454beda3ca91eb863d1de3bb55a8151[m
+Author: Gustavo Paredes <gustavo-8450@hotmail.com>
+Date:   Mon Jun 29 02:12:12 2020 -0500
+
+    se realiza el home de la pagina
+
+[33mcommit 4154b4a4f70148be278726671a42728aa898128b[m
+Author: Gustavo Paredes <gustavo-8450@hotmail.com>
+Date:   Mon Jun 29 01:46:18 2020 -0500
+
+    incluimos bootstrap
+
+[33mcommit 32599ce2fec02da9f5a1ac713ffb87cc18882487[m
+Author: Gustavo Paredes <gustavo-8450@hotmail.com>
+Date:   Sat Jun 27 05:36:39 2020 -0500
+
+    agregamos pagina de inicio
+
+[33mcommit 299313c67ecb8c9e89f880e9585211b61e60ddb1[m
+Author: Gustavo Paredes <gustavo-8450@hotmail.com>
+Date:   Sat Jun 27 05:22:47 2020 -0500
+
+    incluimos litle server
+
+[33mcommit 8d50169c14bf231c391981511df0d347f5b27a7a[m
+Author: Gustavo Paredes <gustavo-8450@hotmail.com>
+Date:   Fri Jun 26 03:59:10 2020 -0500
+
+    definicion del package.json
+
+[33mcommit 767189a59b1c9d81b2889acbf75a35b100907b7d[m
+Author: Gustavo Paredes <gustavo-8450@hotmail.com>
+Date:   Fri Jun 26 03:23:35 2020 -0500
+
+     creacion inicial del proyecto con un readme
